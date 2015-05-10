@@ -1,0 +1,47 @@
+.person-profile {
+	text-align: center;
+}
+
+.section-heading {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.about-text {
+	text-align: left;
+	font-size: 20px;
+	// font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+.navbar-inverse a.navbar-brand {
+	color: white;
+	cursor: default;
+	&:hover{
+		color: white;
+	}
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+ul.temp-nav {
+	text-align: right;
+	li {
+		display: inline;
+		list-style-type: none;
+		margin-right: 20px;
+		text-transform: uppercase;
+		font-size: 18px;
+		a {
+			color: black;
+			font-weight: bold;
+			border: 2px solid black;
+			border-radius: 3px;
+			padding: 10px;
+		}
+	}
+}
